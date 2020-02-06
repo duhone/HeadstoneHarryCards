@@ -1,0 +1,13 @@
+#file <OutputDir>\\<ProjectName>.td
+#tileset
+<TileWidth>
+<TileHeight>
+#map
+<MapWidth>
+<MapHeight>\n
+#mapdata
+<TSBackTile> <TSBackHF> <TSBackVF> <TSMidTile> <TSMidHF> <TSMidVF> <TSFrontTile> <TSFrontHF> <TSFrontVF> 
+#end mapdata
+#end map
+#end tileset
+#end file

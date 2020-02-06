@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <compiler-settings>
+    <output-path path="..\hhcards\Resources\data.edf" />
+    <asset-path path="..\hhcards\Classes\AssetList.h" />
+    <asset-section section="sounds" />
+    <asset-section section="music" />
+  </compiler-settings>
+  <buffers>
+ </buffers>  
+  <sounds>
+ </sounds>  
+  <music>
+	<song id="DFAB502A-C725-4c30-BE11-D64A1F54A6F9" name="Menu" filename="Audio\Music\Menu.wav" quality="5"/>	
+  </music>  
+</data>

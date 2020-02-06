@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* GraphicsAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GraphicsAppDelegate.mm */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28FD14FE0DC6FC130079059D /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.mm */; };
+		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
+		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		A3093BE40F1723C5006CBE9C /* test.hgf in Resources */ = {isa = PBXBuildFile; fileRef = A3093BE30F1723C5006CBE9C /* test.hgf */; };
+		A378265E0F20C4AB009EC597 /* large.HFF in Resources */ = {isa = PBXBuildFile; fileRef = A378265D0F20C4AB009EC597 /* large.HFF */; };
+		A37F90D80F1ED35E006B224C /* Level1f.htf in Resources */ = {isa = PBXBuildFile; fileRef = A37F90D70F1ED35E006B224C /* Level1f.htf */; };
+		A37F90DA0F1ED366006B224C /* Level1b.htf in Resources */ = {isa = PBXBuildFile; fileRef = A37F90D90F1ED366006B224C /* Level1b.htf */; };
+		A37F91750F1EEFA5006B224C /* small.HFF in Resources */ = {isa = PBXBuildFile; fileRef = A37F91740F1EEFA5006B224C /* small.HFF */; };
+		A3D4665E0F15B1A300904FDD /* HPT Graphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D4664C0F15B1A300904FDD /* HPT Graphics.cpp */; };
+		A3D4665F0F15B1A300904FDD /* HPTBackgroundInternal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D4664E0F15B1A300904FDD /* HPTBackgroundInternal.cpp */; };
+		A3D466600F15B1A300904FDD /* HPTClipperInternal1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D466500F15B1A300904FDD /* HPTClipperInternal1.cpp */; };
+		A3D466610F15B1A300904FDD /* HPTFont1Internal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D466520F15B1A300904FDD /* HPTFont1Internal.cpp */; };
+		A3D466620F15B1A300904FDD /* HPTGraphicsEngineInternal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D466540F15B1A300904FDD /* HPTGraphicsEngineInternal.cpp */; };
+		A3D466630F15B1A300904FDD /* HPTSprite1Internal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D466560F15B1A300904FDD /* HPTSprite1Internal.cpp */; };
+		A3D466640F15B1A300904FDD /* HPTTexturesInternal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D466580F15B1A300904FDD /* HPTTexturesInternal.cpp */; };
+		A3D466650F15B1A300904FDD /* HPTTextureStruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D4665A0F15B1A300904FDD /* HPTTextureStruct.cpp */; };
+		A3D466660F15B1A300904FDD /* HPTTileBackgroundInternal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D4665C0F15B1A300904FDD /* HPTTileBackgroundInternal.cpp */; };
+		A3D466700F15B28D00904FDD /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D4666F0F15B28D00904FDD /* libz.1.2.3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* GraphicsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* GraphicsAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GraphicsAppDelegate.mm; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Graphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28FD14FC0DC6FC130079059D /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		28FD14FD0DC6FC130079059D /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
+		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Graphics_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphics_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3093BE30F1723C5006CBE9C /* test.hgf */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.hgf; sourceTree = "<group>"; };
+		A378265D0F20C4AB009EC597 /* large.HFF */ = {isa = PBXFileReference; lastKnownFileType = file; path = large.HFF; sourceTree = "<group>"; };
+		A37F90D70F1ED35E006B224C /* Level1f.htf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Level1f.htf; sourceTree = "<group>"; };
+		A37F90D90F1ED366006B224C /* Level1b.htf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Level1b.htf; sourceTree = "<group>"; };
+		A37F91740F1EEFA5006B224C /* small.HFF */ = {isa = PBXFileReference; lastKnownFileType = file; path = small.HFF; sourceTree = "<group>"; };
+		A3C1A48A0F26E79200C3D930 /* AssetList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetList.h; sourceTree = "<group>"; };
+		A3D4664C0F15B1A300904FDD /* HPT Graphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "HPT Graphics.cpp"; sourceTree = "<group>"; };
+		A3D4664D0F15B1A300904FDD /* HPT Graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HPT Graphics.h"; sourceTree = "<group>"; };
+		A3D4664E0F15B1A300904FDD /* HPTBackgroundInternal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HPTBackgroundInternal.cpp; sourceTree = "<group>"; };
+		A3D4664F0F15B1A300904FDD /* HPTBackgroundInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTBackgroundInternal.h; sourceTree = "<group>"; };
+		A3D466500F15B1A300904FDD /* HPTClipperInternal1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HPTClipperInternal1.cpp; sourceTree = "<group>"; };
+		A3D466510F15B1A300904FDD /* HPTClipperInternal1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTClipperInternal1.h; sourceTree = "<group>"; };
+		A3D466520F15B1A300904FDD /* HPTFont1Internal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HPTFont1Internal.cpp; sourceTree = "<group>"; };
+		A3D466530F15B1A300904FDD /* HPTFont1Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTFont1Internal.h; sourceTree = "<group>"; };
+		A3D466540F15B1A300904FDD /* HPTGraphicsEngineInternal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HPTGraphicsEngineInternal.cpp; sourceTree = "<group>"; };
+		A3D466550F15B1A300904FDD /* HPTGraphicsEngineInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTGraphicsEngineInternal.h; sourceTree = "<group>"; };
+		A3D466560F15B1A300904FDD /* HPTSprite1Internal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HPTSprite1Internal.cpp; sourceTree = "<group>"; };
+		A3D466570F15B1A300904FDD /* HPTSprite1Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTSprite1Internal.h; sourceTree = "<group>"; };
+		A3D466580F15B1A300904FDD /* HPTTexturesInternal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HPTTexturesInternal.cpp; sourceTree = "<group>"; };
+		A3D466590F15B1A300904FDD /* HPTTexturesInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTTexturesInternal.h; sourceTree = "<group>"; };
+		A3D4665A0F15B1A300904FDD /* HPTTextureStruct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HPTTextureStruct.cpp; sourceTree = "<group>"; };
+		A3D4665B0F15B1A300904FDD /* HPTTextureStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTTextureStruct.h; sourceTree = "<group>"; };
+		A3D4665C0F15B1A300904FDD /* HPTTileBackgroundInternal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HPTTileBackgroundInternal.cpp; sourceTree = "<group>"; };
+		A3D4665D0F15B1A300904FDD /* HPTTileBackgroundInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTTileBackgroundInternal.h; sourceTree = "<group>"; };
+		A3D4666F0F15B28D00904FDD /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				A3D466700F15B28D00904FDD /* libz.1.2.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3C1A48A0F26E79200C3D930 /* AssetList.h */,
+				A3D4664C0F15B1A300904FDD /* HPT Graphics.cpp */,
+				A3D4664D0F15B1A300904FDD /* HPT Graphics.h */,
+				A3D4664E0F15B1A300904FDD /* HPTBackgroundInternal.cpp */,
+				A3D4664F0F15B1A300904FDD /* HPTBackgroundInternal.h */,
+				A3D466500F15B1A300904FDD /* HPTClipperInternal1.cpp */,
+				A3D466510F15B1A300904FDD /* HPTClipperInternal1.h */,
+				A3D466520F15B1A300904FDD /* HPTFont1Internal.cpp */,
+				A3D466530F15B1A300904FDD /* HPTFont1Internal.h */,
+				A3D466540F15B1A300904FDD /* HPTGraphicsEngineInternal.cpp */,
+				A3D466550F15B1A300904FDD /* HPTGraphicsEngineInternal.h */,
+				A3D466560F15B1A300904FDD /* HPTSprite1Internal.cpp */,
+				A3D466570F15B1A300904FDD /* HPTSprite1Internal.h */,
+				A3D466580F15B1A300904FDD /* HPTTexturesInternal.cpp */,
+				A3D466590F15B1A300904FDD /* HPTTexturesInternal.h */,
+				A3D4665A0F15B1A300904FDD /* HPTTextureStruct.cpp */,
+				A3D4665B0F15B1A300904FDD /* HPTTextureStruct.h */,
+				A3D4665C0F15B1A300904FDD /* HPTTileBackgroundInternal.cpp */,
+				A3D4665D0F15B1A300904FDD /* HPTTileBackgroundInternal.h */,
+				28FD14FC0DC6FC130079059D /* EAGLView.h */,
+				28FD14FD0DC6FC130079059D /* EAGLView.mm */,
+				1D3623240D0F684500981E51 /* GraphicsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* GraphicsAppDelegate.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Graphics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				A3093BE20F1723AB006CBE9C /* Data */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				A3D4666F0F15B28D00904FDD /* libz.1.2.3.dylib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Graphics_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
+				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3093BE20F1723AB006CBE9C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A378265D0F20C4AB009EC597 /* large.HFF */,
+				A37F91740F1EEFA5006B224C /* small.HFF */,
+				A37F90D90F1ED366006B224C /* Level1b.htf */,
+				A37F90D70F1ED35E006B224C /* Level1f.htf */,
+				A3093BE30F1723C5006CBE9C /* test.hgf */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Graphics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Graphics" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Graphics;
+			productName = Graphics;
+			productReference = 1D6058910D05DD3D006BFB54 /* Graphics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Graphics" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Graphics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				A3093BE40F1723C5006CBE9C /* test.hgf in Resources */,
+				A37F90D80F1ED35E006B224C /* Level1f.htf in Resources */,
+				A37F90DA0F1ED366006B224C /* Level1b.htf in Resources */,
+				A37F91750F1EEFA5006B224C /* small.HFF in Resources */,
+				A378265E0F20C4AB009EC597 /* large.HFF in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* GraphicsAppDelegate.mm in Sources */,
+				28FD14FE0DC6FC130079059D /* EAGLView.mm in Sources */,
+				A3D4665E0F15B1A300904FDD /* HPT Graphics.cpp in Sources */,
+				A3D4665F0F15B1A300904FDD /* HPTBackgroundInternal.cpp in Sources */,
+				A3D466600F15B1A300904FDD /* HPTClipperInternal1.cpp in Sources */,
+				A3D466610F15B1A300904FDD /* HPTFont1Internal.cpp in Sources */,
+				A3D466620F15B1A300904FDD /* HPTGraphicsEngineInternal.cpp in Sources */,
+				A3D466630F15B1A300904FDD /* HPTSprite1Internal.cpp in Sources */,
+				A3D466640F15B1A300904FDD /* HPTTexturesInternal.cpp in Sources */,
+				A3D466650F15B1A300904FDD /* HPTTextureStruct.cpp in Sources */,
+				A3D466660F15B1A300904FDD /* HPTTileBackgroundInternal.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Graphics_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Graphics;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Graphics_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Graphics;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Graphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Graphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

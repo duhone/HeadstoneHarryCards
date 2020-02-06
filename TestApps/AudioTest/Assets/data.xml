@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <compiler-settings>
+    <output-path path="..\Resources\data.edf" />
+    <asset-path path="..\Classes\NewAssetList.h" />
+    <asset-section section="sounds" />
+    <asset-section section="music" />
+  </compiler-settings>
+  <buffers>
+	<buffer id="BF8DEDE1-33BC-4c3e-8930-C5117C887EB6" name="arcadehigh1a" filename="sfx\arcadehigh1a.wav" compression="ogg" quality="4"/>
+	<buffer id="A26179EE-81E0-4ef1-B7A5-E384D934397A" name="arcadeover1a" filename="sfx\arcadeover1a.wav" compression="ogg" quality="2"/>
+	<buffer id="A2BEF2DF-2F88-45b0-9460-7D5FFDE8B16F" name="ArcadeReady" filename="sfx\ArcadeReady.wav" compression="ogg" quality="2"/>
+	<buffer id="48F2D64A-EFEB-4bf0-9E96-238D60DB129B" name="brick1" filename="sfx\brick1.wav" compression="ogg" quality="2"/>
+	<buffer id="38B041A5-F924-4cc5-A5DE-D032DE276D7C" name="brick2" filename="sfx\brick2.wav" compression="ogg" quality="2"/>
+	<buffer id="992C0ACA-610D-4d62-8655-75F37C47F7CF" name="building_notcharged_1a" filename="sfx\building_notcharged_1a.wav" compression="ogg" quality="2"/>
+	<buffer id="B614037D-A2E6-4248-B9BF-6517BCAF09DD" name="char1_chain2_1" filename="voice\char1_chain2_1.wav" compression="ogg" quality="2"/>
+	<buffer id="D561EA0C-E0B3-4b1b-AFFE-0D5985A93C0C" name="char1_chain2_2" filename="voice\char1_chain2_2.wav" compression="ogg" quality="2"/>
+  </buffers>  
+  <sounds>
+	<sound id="87DBDBEE-8D4D-4057-8062-36EFD8262F4F" name="arcadehigh1a" buffer="BF8DEDE1-33BC-4c3e-8930-C5117C887EB6" gain="1.0" positional="false"/>
+	<sound id="72149305-46C0-45e9-AAA6-5434E007ABF6" name="arcadeover1a" buffer="A26179EE-81E0-4ef1-B7A5-E384D934397A" gain="1.0" positional="false"/>
+	<sound id="2874AC6F-5CF4-455f-AA26-2DFDFFD02086" name="ArcadeReady" buffer="A2BEF2DF-2F88-45b0-9460-7D5FFDE8B16F" gain="1.0" positional="false"/>
+	<sound id="713E0573-04B8-4100-B6C5-73EC9015642C" name="brick1" buffer="48F2D64A-EFEB-4bf0-9E96-238D60DB129B" gain="1.0" positional="false"/>
+	<sound id="51F0463F-36C7-4e23-98B5-E40DA53E311E" name="brick2" buffer="38B041A5-F924-4cc5-A5DE-D032DE276D7C" gain="1.0" positional="false"/>
+	<sound id="EED8C2B7-07B9-4f69-972E-BFE2FEF31C11" name="building_notcharged_1a" buffer="992C0ACA-610D-4d62-8655-75F37C47F7CF" gain="1.0" positional="false"/>
+	<sound id="32B9C159-414C-4acd-8399-FA27A4ACA0F7" name="char1_chain2_1" buffer="B614037D-A2E6-4248-B9BF-6517BCAF09DD" gain="1.0" positional="false"/>
+	<sound id="29EF3902-A285-4fbf-9C06-82E5D34B9462" name="char1_chain2_2" buffer="D561EA0C-E0B3-4b1b-AFFE-0D5985A93C0C" gain="1.0" positional="false"/>
+  </sounds>  
+  <music>
+	<song id="A97897F8-856F-4066-9F62-67CA2817A286" name="BT_BGM_Menu" filename="music\BT_BGM_Menu.wav" quality="3"/>
+	<song id="21071B09-2B2F-493f-86F7-B181CCE67559" name="BT_BGM_Arcade" filename="music\BT_BGM_Arcade.wav" quality="3"/>
+  </music>
+</data>
